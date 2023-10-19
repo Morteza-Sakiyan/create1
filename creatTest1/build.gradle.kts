@@ -48,7 +48,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.Morteza-Sakiyan"
             artifactId = "create1"
-            version = "0.0.3"
+            version = "0.0.1"
 
             afterEvaluate {
                 from(components["release"])
